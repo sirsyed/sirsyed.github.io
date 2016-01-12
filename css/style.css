@@ -1,0 +1,169 @@
+body{ font-size:14px; font-family:Arial, Helvetica, sans-serif; color:#4c4c4c; margin:0; padding:0;}
+
+.main-wrapper{ width:80%; margin:auto;}
+
+.phone-icon{ margin-top:70px;}
+
+
+.carousel {
+    margin-top: -21px;
+    position: relative;
+}
+
+/*nav head css*/
+.nav {
+    list-style: outside none none;
+	background-color:#28166f;
+	width:100%;
+	padding-left:20px;
+	font-size:15px;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	margin:0px;
+}
+
+.navbar-nav > li > a {
+    padding-bottom: 15px;
+    padding-top: 15px;
+	color:#FFFFFF;
+}
+
+.container-fluid > 
+.navbar-collapse, 
+.container-fluid > 
+.navbar-header, 
+.container > 
+.navbar-collapse,
+.container > 
+.navbar-header {
+					margin-left: -31px;
+					margin-right: -32px;
+					color:#FFFFFF;
+				}
+
+
+.form{ margin-top:50px;}
+
+
+.navbar-default .navbar-nav > 
+.active > a,
+.navbar-default 
+.navbar-nav > 
+.active > a:focus, 
+.navbar-default 
+.navbar-nav > 
+.active > a:hover {
+					background-color: #28166f;
+					color: #fff;
+					font-size:14px;
+					border:none;
+					
+				  }
+
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #ccc;
+    background-color: transparent;
+}
+
+
+
+.navbar-default 
+.navbar-nav > li > a {
+					color: #fff;
+				}
+
+.main-wrapper-bg{ width:82%; margin:auto;}
+
+
+
+.welcome{}
+.welcome-section{ background-color:#ecedf1; overflow:hidden; padding-bottom:50px;}
+.welcome-section h2{ color:#0c5b7a;}
+.welcome-section p{ text-align:justify;}
+
+
+.button-a{ width:50%; padding:10px; color: #fff; background-color:#0c5b7a; margin:auto; border:none;}
+.button-b{ width:50%; padding:10px; color: #fff; background-color:#e36324; margin:auto; border:none;}
+.button-b1{ width:90%; padding:10px; color: #fff; background-color:#e36324; margin:auto; border:none;}
+.button-b1:hover{
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.3);}
+
+.thumbnail-box {
+    background-color: #fff;
+    margin: auto;
+    padding: 0;
+    width: 100%;
+}
+
+.thumbnail-box h4{ padding-left:15px;}
+.thumbnail-box p{ padding:0; text-align:left;!important}
+
+
+.management{ width:84%;}
+.management-details-section{ background-image:url(../images/management-section-bg.png); padding-top:50px; padding-bottom:40px;}
+.management-details-section img{ margin-bottom:20px;}
+.management-details-section h3{ color:#FFF; text-align:left;}
+.management-details-section p{ color:#ccc; text-align: justify;}
+.management-details-section button{ background-color:#fff; margin:auto; border:none; padding:5px; color:#900; margin-bottom:10px;}
+
+.latest-heading-main{ width:85%; margin-top:20px; margin-bottom:20px;}
+.latest-heading p{ text-align: justify; padding:0px;}
+.latest-heading h2{ color:#b8251f; font-size:28px; border-bottom:#999 1px solid; padding-bottom:10px;}
+
+
+.copyright-bg{ width:85%;}
+.copyright{ background-color:#3d3f4b; padding-top:10px; padding-bottom:px;}
+.copyright p{ color:#CCC;}
+
+.fa{ color:#c9c9c9;}
+
+
+.fa-phone-square:before {
+    content: "\f098";
+    color:#d03026;
+	margin-top:70px;
+}
+
+
+.form-control {
+    background-color: #dddddd;
+    background-image: none;
+    border: medium none;
+    border-radius: 0px;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0) inset;
+    color: #555;
+    display: block;
+    font-size: 14px;
+    height: 34px;
+	margin-top:70px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+}
+
+.btn-default {
+    background-color: #0c5b7a;
+    color: #fff;
+	border-radius:0;
+	border:none;
+	margin-top:70px;
+}
+
+
+/*News section css*/
+
+.news-section{ font-size:14px;}
+.news-section img{float:left; margin-right:10px;}
+.news-section ul{ list-style:none; margin:0; padding:0;}
+.news-section ul li{ list-style:none; margin:0; padding:0; clear:both; margin-bottom:40px;}
+
+.content-page{ width:100%; margin:auto;}
+.content-page img{ float:left; margin-right:10px;}
+
+.sidebar-right{ background-color:#28166f; padding:5px; margin-top:20px;}
+.sidebar-right h3{ font-size:20px; color:#ccc; margin:0; padding:0; text-align:left; padding-left:14px;}
+.sidebar-right ul{ list-style:none; margin:0; padding:10px;}
+.sidebar-right ul li{ list-style:none; margin:0; padding:4px; border-top:1px #337a9f solid; display:block;}
+.sidebar-right ul li a{ color:#ccc; font-size:14px;}
+.sidebar-right ul li a:hover{ color:#337a9f; font-size:14px;}

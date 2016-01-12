@@ -1,0 +1,6 @@
+.modal-backdrop.in {
+    opacity: 0.9;
+}
+#jsfg-modal .modal-dialog {
+    height: 90%;
+}
