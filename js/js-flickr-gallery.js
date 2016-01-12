@@ -27,9 +27,9 @@
         // Generated modal window stuff
         GEN_HEADER_CONTAINER_CLASS = 'modal-header',
         GEN_TITLE_TAG = 'h3',
-        GEN_BODY_CONTAINER_CLASS = 'modal-body',
+        GEN_BODY_CONTAINER_CLASS = 'modal-dialog25',
         GEN_IMAGE_CONTAINER_CLASS = 'modal-dialog',
-        GEN_FOOTER_CONTAINER_CLASS = 'modal-footer'
+        GEN_FOOTER_CONTAINER_CLASS = 'modal-dialog'
       ;
     
     // Plugin name declaration
@@ -57,8 +57,8 @@
                 'nextClass' : '.btn.modal-next',
                 'prevText' : 'Previous image',
                 'nextText' : 'Next image',
-                'offsetWidth' : 100,
-                'offsetHeight' : 200
+                'offsetWidth' : 20,
+                'offsetHeight' : 60
             },
             'pagination' : { // false to disable
                 'generate' : true,
@@ -565,15 +565,15 @@
               ;
                                 
             if ( !document.getElementById( this.options.modal.id ) ) {
-                header = '<div class="modal-dialog"><div class="modal-content">';
+                header = '';
                 body = '<div class="' + GEN_IMAGE_CONTAINER_CLASS + '">' + 
                        '</div>';
-                footer = '</div></div>';   
+                footer = '';   
 
                 // Append modal to body   
                 modal = document.createElement( 'div' );
                 modal.id = this.options.modal.id;
-                modal.className = 'modal fade in';
+                modal.className = 'modal in';
                 modal.innerHTML = header + body + footer;
               
                 document.body.appendChild( modal );
