@@ -1,3 +1,29 @@
+.jsfg-loader {
+	left:40%;
+	font-weight: bold;
+    font-size: 1.6em;
+    position: relative;
+    top: 50%;
+    text-align: center;
+}
+
+    .jsfg-loader .animation-dots {
+        color: #797979;
+        font-size: 20px;
+    }
+
 .modal-backdrop.in {
     opacity: 0.9;
 }
+
+.pagination{
+		padding: 40px 0px;
+		  left:41%;
+		  position: relative;
+		}
+	.pagination .btn {
+		vertical-align: center;
+		padding: 12px 24px;
+		background: #fff;
+		font-size: 1.8em;
+	}
