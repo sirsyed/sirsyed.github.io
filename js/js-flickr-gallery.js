@@ -477,7 +477,7 @@
                                 '<button ' + 'class="' +
                                     this._replaceDots( this.options.pagination.prevClass ) + '" ' +
                                     'title="' + this.options.pagination.prevText + '" ' + 
-                                    'disabled="disabled">&laquo;</button>' +
+                                    'disabled="disabled">&laquo;</button>' + '&nbsp;' +
                                 '<button ' + 'class="' +
                                     this._replaceDots( this.options.pagination.nextClass ) + '" ' + 
                                     'title="' + this.options.pagination.nextText + '" ' + 
