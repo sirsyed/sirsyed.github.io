@@ -27,9 +27,9 @@
         // Generated modal window stuff
         GEN_HEADER_CONTAINER_CLASS = 'modal-header',
         GEN_TITLE_TAG = 'h3',
-        GEN_BODY_CONTAINER_CLASS = 'modal-dialog25',
+        GEN_BODY_CONTAINER_CLASS = 'modal-dialog',
         GEN_IMAGE_CONTAINER_CLASS = 'modal-dialog',
-        GEN_FOOTER_CONTAINER_CLASS = 'modal-dialog'
+        GEN_FOOTER_CONTAINER_CLASS = 'modal-footer'
       ;
     
     // Plugin name declaration
@@ -58,7 +58,7 @@
                 'prevText' : 'Previous image',
                 'nextText' : 'Next image',
                 'offsetWidth' : 20,
-                'offsetHeight' : 60
+                'offsetHeight' : 125
             },
             'pagination' : { // false to disable
                 'generate' : true,
@@ -72,7 +72,7 @@
                 'animation' : true,
                 'loaderClass' : '.jsfg-loader',
                 'text' : 'Loading Gallery',
-                'interval' : 200,
+                'interval' : 300,
                 'mark' : '.',
                 'markClass': '.animation-marks',
                 'maxMarks' : 3
@@ -566,9 +566,16 @@
                                 
             if ( !document.getElementById( this.options.modal.id ) ) {
                 header = '';
-                body = '<div class="' + GEN_IMAGE_CONTAINER_CLASS + '">' + 
+                body = '<div class="' + GEN_IMAGE_CONTAINER_CLASS + '">' +
                        '</div>';
-                footer = '';   
+                footer = '<div class="' + GEN_FOOTER_CONTAINER_CLASS + ' " style = "width: 54%; border-top: none;" >' +
+                            '<button title="' + this.options.modal.prevText + 
+                                '" class="' + this._replaceDots( this.options.modal.prevClass ) + 
+                                '">&laquo;</button>' +
+                            '<button title="' + this.options.modal.nextText + 
+                                '" class="' + this._replaceDots( this.options.modal.nextClass ) + 
+                                '">&raquo;</button>' +
+                         '</div>';   
 
                 // Append modal to body   
                 modal = document.createElement( 'div' );

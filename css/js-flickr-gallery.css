@@ -27,3 +27,7 @@
 		background: #fff;
 		font-size: 1.8em;
 	}
+
+.jsfg-modal .modal-dialog .jsfg-loader{
+		left: 0%;
+		}
