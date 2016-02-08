@@ -8,7 +8,14 @@ body{ font-size:14px; font-family:Arial, Helvetica, sans-serif; color:#4c4c4c; m
     position: relative;
 }
 
+.dropdown-menu {
 
+    background-color: #28166f;
+}
+
+.dropdown-menu >li >a {
+        color: #fff;
+}
 
 
 .phone-icon ul{ list-style:none; margin:0; padding:0; padding-top:60px; }
