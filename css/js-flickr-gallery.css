@@ -31,3 +31,6 @@
 .jsfg-modal .modal-dialog .jsfg-loader{
 		left: 0%;
 		}
+.btn.disabled .btn[disabled], .btn {
+	color:#999;
+}
