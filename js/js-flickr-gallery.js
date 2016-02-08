@@ -71,7 +71,7 @@
             'loader' : { // false to disable
                 'animation' : true,
                 'loaderClass' : '.jsfg-loader',
-                'text' : 'Loading Gallery',
+                'text' : 'Loading',
                 'interval' : 300,
                 'mark' : '.',
                 'markClass': '.animation-marks',
